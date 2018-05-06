@@ -18,7 +18,7 @@
   "Update user's availability and return the user entity"
   []
   (let [user-id (:user/id first-user)
-        db-t2 (core/update-availability true user-id)
+        db-t2 (core/update-availability-by-user-id true user-id)
         ]
     (core/get-user-by-id user-id db-t2))
   )
