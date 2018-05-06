@@ -1,0 +1,7 @@
+;;; Put this file in your home directory and fill in the secrets below
+{:dev-access-key ""
+ :dev-secret ""
+ :test-access-key ""
+ :test-secret ""
+ :prod-access-key ""
+ :prod-secret ""}
