@@ -9,7 +9,7 @@ This project is developed to run in Intellij IDE with Cursive plugin.  It depend
 
 ## Usage
 
-To run this project in REPL, right click of two finger click the project.clj file and then select run REPL.
+To run this project in REPL, right click (PC) or two finger click (MAC) the project.clj file and then select run REPL.
 Execute the (-main) function once the project is loaded.
 
 
