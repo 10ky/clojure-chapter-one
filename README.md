@@ -1,36 +1,20 @@
 # chapter-one
 
-FIXME: description
+A CURD demo of Datomic Database
 
 ## Installation
 
-Download from http://example.com/FIXME.
+This project is developed to run in Intellij IDE with Cursive plugin.  It depends on a working Datomic DB instance running locally.
+
 
 ## Usage
 
-FIXME: explanation
+To run this project in REPL, right click of two finger click the project.clj file and then select run REPL.
+Execute the (-main) function once the project is loaded.
 
-    $ java -jar chapter-one-0.1.0-standalone.jar [args]
-
-## Options
-
-FIXME: listing of options this app accepts.
-
-## Examples
-
-...
-
-### Bugs
-
-...
-
-### Any Other Sections
-### That You Think
-### Might be Useful
 
 ## License
 
-Copyright © 2018 FIXME
+Copyright © 2018 10KY
 
-Distributed under the Eclipse Public License either version 1.0 or (at
-your option) any later version.
+Distributed under the Eclipse Public License either version 1.0 or any later version.
