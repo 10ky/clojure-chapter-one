@@ -1,0 +1,807 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="87283a09-35bf-4d9c-a8a7-6552017bd955" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="chapter-one" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="core.clj" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/chapter_one/core.clj">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="model.clj" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/biz/model.clj">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="30" selection-start-line="30" selection-end-line="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.clj" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/my_db/config.clj">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="16" selection-start-column="16" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="setup.clj" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/my_db/setup.clj">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="data_utils.clj" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/util/data_utils.clj">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="18" column="6" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="core_test.clj" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/chapter_one/core_test.clj">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-54">
+              <caret line="14" column="3" lean-forward="true" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test_script.clj" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/chapter_one/test_script.clj">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="65" selection-start-line="2" selection-start-column="65" selection-end-line="2" selection-end-column="65" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test_data.clj" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/chapter_one/test_data.clj">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Clojure Test Namespace" />
+        <option value="Clojure Namespace" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>rambrandt</find>
+      <find>availablility</find>
+      <find>delete-fake</find>
+      <find>first</find>
+      <find>second-artist</find>
+      <find>include</find>
+      <find>env</find>
+      <find>defmulti</find>
+      <find>Retract fake Rembrandt's</find>
+      <find>artist</find>
+      <find>first-producer</find>
+      <find>tuple</find>
+      <find>gen</find>
+      <find>get-producer2</find>
+      <find>user</find>
+      <find>add-producers</find>
+      <find>get-user-by-id</find>
+      <find>update-availability</find>
+      <find>producer-schema</find>
+      <find>producer</find>
+      <find>::</find>
+      <find>add-users</find>
+      <find>map</find>
+      <find>cat</find>
+      <find>bind</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>fake-artist</replace>
+      <replace>producer</replace>
+      <replace>user</replace>
+      <replace>:</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$</dir>
+    </dirStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/artist_db.clj" />
+        <option value="$PROJECT_DIR$/src/artist_db/artist_db.clj" />
+        <option value="$PROJECT_DIR$/src/artist_db/util.clj" />
+        <option value="$PROJECT_DIR$/src/artist_db/tut.clj" />
+        <option value="$PROJECT_DIR$/src/artist_db/crud.clj" />
+        <option value="$PROJECT_DIR$/src/artist_data/crud.clj" />
+        <option value="$PROJECT_DIR$/src/artist_data/util.clj" />
+        <option value="$PROJECT_DIR$/config.edn" />
+        <option value="$PROJECT_DIR$/src/artist_data/spec.clj" />
+        <option value="$PROJECT_DIR$/src/user.clj" />
+        <option value="$PROJECT_DIR$/src/user/specs.clj" />
+        <option value="$PROJECT_DIR$/src/specs/artist.clj" />
+        <option value="$PROJECT_DIR$/src/specs/model.clj" />
+        <option value="$PROJECT_DIR$/src/specs/user.clj" />
+        <option value="$PROJECT_DIR$/config/credential.edn" />
+        <option value="$PROJECT_DIR$/config/config.edn" />
+        <option value="$PROJECT_DIR$/src/artist_data/db_setup.clj" />
+        <option value="$PROJECT_DIR$/src/specs/producer.clj" />
+        <option value="$PROJECT_DIR$/src/artist_data/schema.clj" />
+        <option value="$PROJECT_DIR$/src/my_db/db_setup.clj" />
+        <option value="$PROJECT_DIR$/src/chapter_one/config.clj" />
+        <option value="$PROJECT_DIR$/src/my_db/config.clj" />
+        <option value="$PROJECT_DIR$/src/my_db/setup.clj" />
+        <option value="$PROJECT_DIR$/test/chapter_one/known_bug.clj" />
+        <option value="$PROJECT_DIR$/test/chapter_one/test_test.clj" />
+        <option value="$PROJECT_DIR$/src/chapter_one/data_validation.clj" />
+        <option value="$PROJECT_DIR$/src/chapter_one/data_utils.clj" />
+        <option value="$PROJECT_DIR$/src/my_db/schema.clj" />
+        <option value="$PROJECT_DIR$/src/specs/schema.clj" />
+        <option value="$PROJECT_DIR$/project.clj" />
+        <option value="$PROJECT_DIR$/src/biz/producer.clj" />
+        <option value="$PROJECT_DIR$/src/biz/schema.clj" />
+        <option value="$PROJECT_DIR$/src/util.clj" />
+        <option value="$PROJECT_DIR$/src/biz/user.clj" />
+        <option value="$PROJECT_DIR$/test/chapter_one/util.clj" />
+        <option value="$PROJECT_DIR$/test/chapter_one/core_test.clj" />
+        <option value="$PROJECT_DIR$/resources/config.edn" />
+        <option value="$PROJECT_DIR$/src/biz/model.clj" />
+        <option value="$PROJECT_DIR$/src/chapter_one/core.clj" />
+        <option value="$PROJECT_DIR$/src/util/data_utils.clj" />
+        <option value="$PROJECT_DIR$/test/chapter_one/test_data.clj" />
+        <option value="$PROJECT_DIR$/test/chapter_one/test_script.clj" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="24" />
+    <option name="y" value="23" />
+    <option name="width" value="1416" />
+    <option name="height" value="788" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="clojure-chapter-one" type="b2602c69:ProjectViewProjectNode" />
+              <item name="clojure-chapter-one" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="clojure-chapter-one" type="b2602c69:ProjectViewProjectNode" />
+              <item name="clojure-chapter-one" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="clojure-chapter-one" type="b2602c69:ProjectViewProjectNode" />
+              <item name="clojure-chapter-one" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="clojure-chapter-one" type="b2602c69:ProjectViewProjectNode" />
+              <item name="clojure-chapter-one" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="biz" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="clojure-chapter-one" type="b2602c69:ProjectViewProjectNode" />
+              <item name="clojure-chapter-one" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter_one" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="clojure-chapter-one" type="b2602c69:ProjectViewProjectNode" />
+              <item name="clojure-chapter-one" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="my_db" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="clojure-chapter-one" type="b2602c69:ProjectViewProjectNode" />
+              <item name="clojure-chapter-one" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="clojure-chapter-one" type="b2602c69:ProjectViewProjectNode" />
+              <item name="clojure-chapter-one" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="clojure-chapter-one" type="b2602c69:ProjectViewProjectNode" />
+              <item name="clojure-chapter-one" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="default" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="clojure-chapter-one" type="b2602c69:ProjectViewProjectNode" />
+              <item name="clojure-chapter-one" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="clojure-chapter-one" type="b2602c69:ProjectViewProjectNode" />
+              <item name="clojure-chapter-one" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter_one" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="clojure-chapter-one" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="cursive.last.file.extension./Users/steveliang/Documents/GitHub/chapter-one/src" value="clj" />
+    <property name="cursive.last.file.extension./Users/steveliang/Documents/GitHub/chapter-one/test" value="clj" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Clojure" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/util" />
+      <recent name="$PROJECT_DIR$/src/specs" />
+      <recent name="$PROJECT_DIR$/src/my_db" />
+      <recent name="$PROJECT_DIR$/resources" />
+      <recent name="$PROJECT_DIR$/config" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/chapter_one" />
+      <recent name="$PROJECT_DIR$/target/default/classes/META-INF/maven/chapter-one/chapter-one" />
+      <recent name="$PROJECT_DIR$/target/default" />
+      <recent name="$PROJECT_DIR$/target" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="ReplState" timestamp="1525580155506">{:repl-history {:ide [], :local [{:command &quot;(apply inc2 5)&quot;, :offset 14, :ns &quot;chapter-one.core&quot;} {:command &quot;(apply inc2 5.0)&quot;, :offset 16, :ns &quot;chapter-one.core&quot;} {:command &quot;(inc2 5.0)&quot;, :offset 10, :ns &quot;chapter-one.core&quot;} {:command &quot;(for [id [\&quot;rembrandt@gmail.com\&quot; \&quot;fake-rembrandt@gmail.com\&quot;]] (println id))&quot;, :offset 74, :ns &quot;chapter-one.core&quot;} {:command &quot;(for [id (seq (\&quot;rembrandt@gmail.com\&quot; \&quot;fake-rembrandt@gmail.com\&quot;))] (println id))&quot;, :offset 80, :ns &quot;chapter-one.core&quot;} {:command &quot;(for [id (vector (\&quot;rembrandt@gmail.com\&quot; \&quot;fake-rembrandt@gmail.com\&quot;))] (println id))&quot;, :offset 83, :ns &quot;chapter-one.core&quot;} {:command &quot;(for [id (vector\n           (\&quot;rembrandt@gmail.com\&quot; \&quot;fake-rembrandt@gmail.com\&quot;))] (println id))&quot;, :offset 94, :ns &quot;chapter-one.core&quot;} {:command &quot;(range 1 2)&quot;, :offset 11, :ns &quot;chapter-one.core&quot;} {:command &quot;(range 1 23)&quot;, :offset 12, :ns &quot;chapter-one.core&quot;} {:command &quot;(for [id (\&quot;rembrandt@gmail.com\&quot; \&quot;fake-rembrandt@gmail.com\&quot;)] (println id))&quot;, :offset 74, :ns &quot;chapter-one.core&quot;} {:command &quot;(for [id (list (\&quot;rembrandt@gmail.com\&quot; \&quot;fake-rembrandt@gmail.com\&quot;))] (println id))&quot;, :offset 81, :ns &quot;chapter-one.core&quot;} {:command &quot;(for [id '(\&quot;rembrandt@gmail.com\&quot; \&quot;fake-rembrandt@gmail.com\&quot;)] (println id))&quot;, :offset 75, :ns &quot;chapter-one.core&quot;} {:command &quot;(:require [my-db.setup :as setup] [my-db.schema :as schema])&quot;, :offset 60, :ns &quot;chapter-one.core&quot;} {:command &quot;(:require [my-db.setup :as setup])&quot;, :offset 34, :ns &quot;chapter-one.core&quot;} {:command &quot;(require '[my-db.setup :as setup] '[my-db.schema :as schema])&quot;, :offset 61, :ns &quot;chapter-one.core&quot;} {:command &quot;(def conn setup/mydb-conn)&quot;, :offset 26, :ns &quot;chapter-one.core&quot;} {:command &quot;(d/transact conn {:tx-data schema/producer-schema})\n&quot;, :offset 52, :ns &quot;chapter-one.core&quot;} {:command &quot;(get-all-eid {:database-id \&quot;5accec9e-220f-49ef-8722-6d632b64103d\&quot;, :db-name \&quot;mydb\&quot;, :t 5968, :next-t 5969, :history false, :type :datomic.client/db})&quot;, :offset 149, :ns &quot;chapter-one.core&quot;} {:command &quot;(def db (d/db conn)) &quot;, :offset 21, :ns &quot;chapter-one.core&quot;} {:command &quot;(pp/pprint (get-all-eid db))&quot;, :offset 28, :ns &quot;chapter-one.core&quot;} {:command &quot;(vector {:a 1})&quot;, :offset 15, :ns &quot;chapter-one.core&quot;} {:command &quot;(vector (map :a 1))&quot;, :offset 19, :ns &quot;chapter-one.core&quot;} {:command &quot;(vector (map :a))&quot;, :offset 17, :ns &quot;chapter-one.core&quot;} {:command &quot;(map :a)&quot;, :offset 8, :ns &quot;chapter-one.core&quot;} {:command &quot;(map :a 1)&quot;, :offset 10, :ns &quot;chapter-one.core&quot;} {:command &quot;(gen/cat 1 2)&quot;, :offset 13, :ns &quot;chapter-one.core&quot;} {:command &quot;(gen/cat 1)&quot;, :offset 11, :ns &quot;chapter-one.core&quot;} {:command &quot;(gen/map 1 2)&quot;, :offset 13, :ns &quot;chapter-one.core&quot;} {:command &quot;(gen/map :1 2)&quot;, :offset 14, :ns &quot;chapter-one.core&quot;} {:command &quot;(gen/generate (s/gen ?number))&quot;, :offset 30, :ns &quot;chapter-one.core&quot;} {:command &quot;(gen/generate (s/gen ?int))&quot;, :offset 27, :ns &quot;chapter-one.core&quot;} {:command &quot;(gen/generate (s/gen number?))&quot;, :offset 30, :ns &quot;chapter-one.core&quot;} {:command &quot;(gen/generate (s/gen {:a number?}))&quot;, :offset 35, :ns &quot;chapter-one.core&quot;} {:command &quot;(gen/generate (s/gen #{:a :b}))&quot;, :offset 31, :ns &quot;chapter-one.core&quot;} {:command &quot;(gen/generate (s/gen :user/id))&quot;, :offset 31, :ns &quot;chapter-one.core&quot;} {:command &quot;(s/gen :user/id)&quot;, :offset 16, :ns &quot;chapter-one.core&quot;} {:command &quot;(gen/generate email-generator)&quot;, :offset 30, :ns &quot;chapter-one.core&quot;} {:command &quot;(gen/generate (s/cat :k keyword? :ns email-generator))&quot;, :offset 54, :ns &quot;chapter-one.core&quot;} {:command &quot;(gen/sample (s/gen (s/cat :k keyword? :ns (s/+ number?))))&quot;, :offset 58, :ns &quot;chapter-one.core&quot;} {:command &quot;(gen/generate (s/gen (s/cat :k keyword? :ns (s/+ number?))))&quot;, :offset 60, :ns &quot;chapter-one.core&quot;} {:command &quot;(gen/generate (s/gen (s/cat :k #{:hi} :ns (s/+ number?))))&quot;, :offset 58, :ns &quot;chapter-one.core&quot;} {:command &quot;(gen/generate (s/gen (s/cat :k :hi :ns (s/+ number?))))&quot;, :offset 55, :ns &quot;chapter-one.core&quot;} {:command &quot;(gen/generate (s/gen (s/cat :k #{:user/id } :ns (s/+ number?))))&quot;, :offset 64, :ns &quot;chapter-one.core&quot;} {:command &quot;(gen/generate (s/gen (s/cat :g #{:user/id } :nsb (s/+ number?))))&quot;, :offset 65, :ns &quot;chapter-one.core&quot;} {:command &quot;(gen/generate (s/gen (s/cat :k #{:user/id } :nsb (s/+ number?))))&quot;, :offset 65, :ns &quot;chapter-one.core&quot;} {:command &quot;(s/gen (s/coll-of number?))&quot;, :offset 27, :ns &quot;chapter-one.core&quot;} {:command &quot;(gen/generate (s/gen (s/coll-of number?)))&quot;, :offset 42, :ns &quot;chapter-one.core&quot;} {:command &quot;(gen/generate (s/gen (s/coll-of :into () number?)))&quot;, :offset 51, :ns &quot;chapter-one.core&quot;} {:command &quot;(gen/generate (s/gen (s/coll-of number? :into [])))&quot;, :offset 51, :ns &quot;chapter-one.core&quot;} {:command &quot;(gen/generate (s/gen (s/coll-of number? :into [%])))&quot;, :offset 52, :ns &quot;chapter-one.core&quot;} {:command &quot;(gen/generate (s/gen (s/coll-of number? :into)))&quot;, :offset 48, :ns &quot;chapter-one.core&quot;} {:command &quot;(gen/generate (s/gen (s/coll-of number? :into) #{}))&quot;, :offset 52, :ns &quot;chapter-one.core&quot;} {:command &quot;(s/def ::vnum3 (s/coll-of number? :kind vector? :count 3 :distinct true :into #{}))&quot;, :offset 83, :ns &quot;chapter-one.core&quot;} {:command &quot;(gen/generate (s/gen (s/coll-of number? :into #{})))&quot;, :offset 52, :ns &quot;chapter-one.core&quot;} {:command &quot;(gen/generate (s/gen (s/coll-of (email-generator))))&quot;, :offset 52, :ns &quot;chapter-one.core&quot;} {:command &quot;(gen/generate (s/gen email-generator))&quot;, :offset 38, :ns &quot;chapter-one.core&quot;} {:command &quot;(gen/generate  email-generator)&quot;, :offset 31, :ns &quot;chapter-one.core&quot;} {:command &quot;(def image-gen\n  (gen/bind\n    (s/gen (s/tuple pos-int? (s/int-in 1 8) (s/int-in 1 8)))\n    (fn [[max rows cols]]\n      (gen/hash-map\n        :max (s/gen #{max})\n        :data (gen/fmap #(into [] (partition-all cols) %)\n                        (s/gen (s/coll-of (s/int-in 0 (inc max))\n                                          :kind vector?\n                                          :count (* rows cols))))))))&quot;, :offset 410, :ns &quot;chapter-one.core&quot;} {:command &quot;image-gen&quot;, :offset 9, :ns &quot;chapter-one.core&quot;} {:command &quot;(gen/sample image-gen)&quot;, :offset 22, :ns &quot;chapter-one.core&quot;} {:command &quot;(s/def ::image\n  (s/with-gen\n    (s/and (s/keys :req-un [::max ::data])\n           (fn [{:keys [max data]}]\n             (every? #(&lt;= 0 % max) (flatten data))))\n    (fn [] image-gen)))&quot;, :offset 184, :ns &quot;chapter-one.core&quot;} {:command &quot;(gen/sample (s/gen ::image))&quot;, :offset 28, :ns &quot;chapter-one.core&quot;} {:command &quot;(s/explain-data (s/cat :0 int? :1 string?)  [1 \&quot;hi\&quot;])&quot;, :offset 53, :ns &quot;chapter-one.core&quot;} {:command &quot;(s/explain-data (s/cat :0 int? :1 string?)  [1 \&quot;hi\&quot; 1])&quot;, :offset 55, :ns &quot;chapter-one.core&quot;} {:command &quot;(s/explain-data (s/cat :0 int? :1 string?)  [1 true])&quot;, :offset 53, :ns &quot;chapter-one.core&quot;} {:command &quot;(s/gen (s/tuple pos-int? (s/int-in 1 8) (s/int-in 1 8)))&quot;, :offset 56, :ns &quot;chapter-one.core&quot;} {:command &quot;(gen/sample (s/gen (s/tuple pos-int? (s/int-in 1 8) (s/int-in 1 8))))&quot;, :offset 69, :ns &quot;chapter-one.core&quot;} {:command &quot;(gen/generate (s/gen (s/tuple pos-int? (s/int-in 1 8) (s/int-in 1 8))))&quot;, :offset 71, :ns &quot;chapter-one.core&quot;} {:command &quot;(gen/hash-map :role (email-generator))&quot;, :offset 38, :ns &quot;chapter-one.core&quot;} {:command &quot;(gen/hash-map :role (s/gen int?))&quot;, :offset 33, :ns &quot;chapter-one.core&quot;} {:command &quot;(gen/generate (gen/hash-map :role (s/gen int?)))&quot;, :offset 48, :ns &quot;chapter-one.core&quot;} {:command &quot;(gen/generate (email-generator))&quot;, :offset 32, :ns &quot;chapter-one.core&quot;} {:command &quot;(def non-empty-alphanumeric-string-gen\n  (gen/such-that not-empty (gen/string-alphanumeric)))&quot;, :offset 93, :ns &quot;chapter-one.core&quot;} {:command &quot;image-gen'&quot;, :offset 10, :ns &quot;chapter-one.core&quot;} {:command &quot;(s/coll-of any?)&quot;, :offset 16, :ns &quot;chapter-one.core&quot;} {:command &quot;(gen/generate (s/coll-of any?))&quot;, :offset 31, :ns &quot;chapter-one.core&quot;} {:command &quot;(gen/generate (s/gen (s/coll-of any?)))&quot;, :offset 39, :ns &quot;chapter-one.core&quot;} {:command &quot;(gen/generate image-gen')&quot;, :offset 25, :ns &quot;chapter-one.core&quot;} {:command &quot;(def role-gen\n  (gen/bind\n    (s/gen (s/tuple string?))\n    (fn [[name]]\n      (gen/hash-map\n        :role/name (s/gen #{name})\n        :user/id (gen/fmap (fn [[a b c]] (str a \&quot;@\&quot; b \&quot;.\&quot; c))\n                           (gen/tuple\n                             non-empty-alphanumeric-string-gen\n                             non-empty-alphanumeric-string-gen\n                             non-empty-alphanumeric-string-gen))))))&quot;, :offset 422, :ns &quot;chapter-one.core&quot;} {:command &quot;(gen/generate role-gen')&quot;, :offset 24, :ns &quot;chapter-one.core&quot;} {:command &quot;(def role-gen'\n  (gen/fmap #(into [] (partition-all 2) %)\n            (s/gen (s/coll-of (s/int-in 0 (inc 2))\n                              :kind vector?\n                              :count (* 2 cols))))&quot;, :offset 203, :ns &quot;chapter-one.core&quot;} {:command &quot;(def role-gen'\n  (gen/fmap #(into [] (partition-all 2) %)\n            (s/gen (s/coll-of (s/int-in 0 (inc 2))\n                              :kind vector?\n                              :count (* 2 2))))&quot;, :offset 200, :ns &quot;chapter-one.core&quot;} {:command &quot;(def role-gen'\n  (s/gen (s/coll-of (s/int-in 0 (inc 2))\n                    :kind vector?\n                    :count (* 2 2)))&quot;, :offset 126, :ns &quot;chapter-one.core&quot;} {:command &quot;(s/gen (s/coll-of int?))&quot;, :offset 24, :ns &quot;chapter-one.core&quot;} {:command &quot;::user&quot;, :offset 6, :ns &quot;chapter-one.core&quot;} {:command &quot;(s/gen ::user)&quot;, :offset 14, :ns &quot;chapter-one.core&quot;} {:command &quot;(s/gen (s/coll-of 0 :kind vector? :count 2))&quot;, :offset 44, :ns &quot;chapter-one.core&quot;} {:command &quot;(s/coll-of 0 :kind vector? :count 2)&quot;, :offset 36, :ns &quot;chapter-one.core&quot;} {:command &quot;(spec/coll-of string? :type vector? :count 3)&quot;, :offset 45, :ns &quot;chapter-one.core&quot;} {:command &quot;(s/coll-of string? :type vector? :count 3)&quot;, :offset 42, :ns &quot;chapter-one.core&quot;} {:command &quot;((s/gen (s/coll-of string? :type vector? :count 3))&quot;, :offset 51, :ns &quot;chapter-one.core&quot;} {:command &quot;(s/gen (s/coll-of string? :type vector? :count 3))&quot;, :offset 50, :ns &quot;chapter-one.core&quot;} {:command &quot;(gen/generate (s/gen (s/coll-of string? :type vector? :count 3)))&quot;, :offset 65, :ns &quot;chapter-one.core&quot;} {:command &quot;(gen/generate (s/gen (s/coll-of map? :type vector? :count 3)))&quot;, :offset 62, :ns &quot;chapter-one.core&quot;} {:command &quot;(gen/generate role-gen)&quot;, :offset 23, :ns &quot;chapter-one.core&quot;} {:command &quot;(gen/sample role-gen)&quot;, :offset 21, :ns &quot;chapter-one.core&quot;} {:command &quot;(gen/sample user-generator 2)&quot;, :offset 29, :ns &quot;chapter-one.core&quot;} {:command &quot;(gen/sample user-generator)&quot;, :offset 27, :ns &quot;chapter-one.core&quot;} {:command &quot;user&quot;, :offset 4, :ns &quot;chapter-one.core&quot;} {:command &quot;users&quot;, :offset 5, :ns &quot;chapter-one.core&quot;} {:command &quot;(-main)&quot;, :offset 7, :ns &quot;chapter-one.core&quot;}], :remote []}}</component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Clojure REPL.REPL for chapter-one">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="REPL for chapter-one" type="ClojureREPL" factoryName="Local">
+      <module name="chapter-one" />
+      <setting name="replType" value="1" />
+      <setting name="jvmArgs" value="" />
+      <setting name="parameters" value="" />
+      <setting name="workingDir" value="$PROJECT_DIR$" />
+      <setting name="profiles" value="" />
+    </configuration>
+    <configuration name="chapter-one.core-test" type="ClojureScriptRunConfiguration" factoryName="Clojure Script" temporary="true">
+      <module name="chapter-one" />
+      <setting name="path" value="$PROJECT_DIR$/test/chapter_one/core_test.clj" />
+      <setting name="namespace" value="" />
+      <setting name="useLein" value="false" />
+      <setting name="profiles" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workDir" value="$PROJECT_DIR$/test/chapter_one" />
+    </configuration>
+    <configuration name="chapter-one.core" type="ClojureScriptRunConfiguration" factoryName="Clojure Script" temporary="true">
+      <module name="chapter-one" />
+      <setting name="path" value="$PROJECT_DIR$/src/chapter_one/core.clj" />
+      <setting name="namespace" value="" />
+      <setting name="useLein" value="false" />
+      <setting name="profiles" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workDir" value="$PROJECT_DIR$/src/chapter_one" />
+    </configuration>
+    <configuration name="core" type="ClojureScriptRunConfiguration" factoryName="Clojure Script" temporary="true">
+      <module name="chapter-one" />
+      <setting name="path" value="" />
+      <setting name="namespace" value="chapter-one.core" />
+      <setting name="useLein" value="true" />
+      <setting name="profiles" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workDir" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+    </configuration>
+    <list>
+      <item itemvalue="Clojure REPL.REPL for chapter-one" />
+      <item itemvalue="Clojure Application.chapter-one.core" />
+      <item itemvalue="Clojure Application.chapter-one.core-test" />
+      <item itemvalue="Clojure Application.core" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Clojure Application.core" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="87283a09-35bf-4d9c-a8a7-6552017bd955" name="Default" comment="" />
+      <created>1522023571341</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1522023571341</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="24" y="23" width="1416" height="788" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49410897" weight="0.3283582" />
+      <window_info anchor="right" id="Palette&#9;" order="9" />
+      <window_info id="Image Layers" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5203785" side_tool="true" visible="true" weight="0.3248503" />
+      <window_info anchor="right" id="Maven Projects" order="4" sideWeight="0.4926004" />
+      <window_info active="true" anchor="right" id="REPL" order="5" sideWeight="0.50739956" side_tool="true" visible="true" weight="0.25909752" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.47962153" weight="0.3248503" />
+      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
+      <window_info anchor="right" id="Leiningen" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.4904271" weight="0.32784432" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4911111" visible="true" weight="0.27219796" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.47275406" weight="0.3997006" />
+      <window_info id="Favorites" order="5" sideWeight="0.5088889" side_tool="true" weight="0.2569956" />
+      <window_info anchor="bottom" id="Dependency Viewer" order="11" weight="0.32900432" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Messages" order="8" sideWeight="0.48527247" weight="0.31746033" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.48689955" visible="true" weight="0.33832335" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <option name="time" value="13" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/test/chapter_one/core_test.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="14" lean-forward="true" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/biz/schema.clj" />
+    <entry file="jar://$MAVEN_REPOSITORY$/com/datomic/client/0.8.37/client-0.8.37.jar!/datomic/client/api.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1560">
+          <caret line="104" column="6" selection-start-line="104" selection-start-column="6" selection-end-line="104" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter_one/core.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1050">
+          <caret line="70" column="1" selection-start-line="70" selection-start-column="1" selection-end-line="70" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter_one/core.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/artist_data/util.clj" />
+    <entry file="file://$PROJECT_DIR$/src/chapter_one/core.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="25" lean-forward="true" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/artist_data/util.clj" />
+    <entry file="file://$PROJECT_DIR$/src/chapter_one/core.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/artist_data/util.clj" />
+    <entry file="file://$PROJECT_DIR$/src/artist_db.clj" />
+    <entry file="file://$PROJECT_DIR$/src/artist_db/artist_db.clj" />
+    <entry file="file://$PROJECT_DIR$/src/artist_db/tut.clj" />
+    <entry file="jar://$MAVEN_REPOSITORY$/clojure-term-colors/clojure-term-colors/0.1.0/clojure-term-colors-0.1.0.jar!/clojure/term/colors.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-285">
+          <caret column="4" selection-start-column="4" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/user.clj" />
+    <entry file="file://$PROJECT_DIR$/src/user/specs.clj" />
+    <entry file="file://$PROJECT_DIR$/src/artist_data/spec.clj" />
+    <entry file="file://$PROJECT_DIR$/src/artist_data/util.clj" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/clojure/clojure/1.9.0/clojure-1.9.0.jar!/clojure/test.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2571">
+          <caret line="233" column="2" selection-start-line="233" selection-start-column="2" selection-end-line="233" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/prod-config.edn" />
+    <entry file="file://$PROJECT_DIR$/resources/test-config.edn" />
+    <entry file="file://$PROJECT_DIR$/test-config.edn" />
+    <entry file="file://$PROJECT_DIR$/target/test-config.edn" />
+    <entry file="file://$PROJECT_DIR$/target/default/test-config.edn" />
+    <entry file="file://$PROJECT_DIR$/target/default/classes/META-INF/maven/chapter-one/chapter-one/test-config.edn" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/clojure/clojure/1.9.0/clojure-1.9.0.jar!/clojure/java/io.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="445" column="11" selection-start-line="445" selection-start-column="11" selection-end-line="445" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/aero/aero/1.1.3/aero-1.1.3.jar!/aero/core.cljc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/secrets.edn" />
+    <entry file="file://$PROJECT_DIR$/config/credential.edn" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/clojure/test.check/0.10.0-alpha2/test.check-0.10.0-alpha2.jar!/clojure/test/check.cljc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-170">
+          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/jdk/Contents/Home/jre/lib/rt.jar!/sun/nio/ch/KQueueArrayWrapper.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="133" column="23" selection-start-line="133" selection-start-column="23" selection-end-line="133" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/biz/schema.clj" />
+    <entry file="file://$PROJECT_DIR$/src/biz/producer.clj" />
+    <entry file="file://$PROJECT_DIR$/src/biz/model.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/datomic/client/0.8.37/client-0.8.37.jar!/datomic/client/api.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="227" column="6" selection-start-line="227" selection-start-column="6" selection-end-line="227" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/provisdom/spectomic/0.7.6/spectomic-0.7.6.jar!/provisdom/spectomic/core.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="883">
+          <caret line="135" column="6" selection-start-line="135" selection-start-column="6" selection-end-line="135" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/config.edn">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="20" lean-forward="true" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/clojure/spec.alpha/0.1.143/spec.alpha-0.1.143.jar!/clojure/spec/gen/alpha.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="116" column="32" selection-start-line="116" selection-start-column="32" selection-end-line="116" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/clojure/spec.alpha/0.1.143/spec.alpha-0.1.143.jar!/clojure/spec/alpha.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="557" column="10" selection-start-line="557" selection-start-column="10" selection-end-line="557" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/clojure/clojure/1.9.0/clojure-1.9.0.jar!/clojure/core.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="913" column="6" selection-start-line="913" selection-start-column="6" selection-end-line="913" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/clojure/clojure/1.9.0/clojure-1.9.0.jar!/clojure/lang/Compiler.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="1141" selection-start-line="1141" selection-end-line="1141" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/chapter_one/util.clj" />
+    <entry file="file://$PROJECT_DIR$/test/chapter_one/test_script.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="65" selection-start-line="2" selection-start-column="65" selection-end-line="2" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/chapter_one/test_data.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/util/data_utils.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="6" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/my_db/setup.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/my_db/config.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="16" selection-start-column="16" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter_one/core.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/biz/model.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/chapter_one/core_test.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-54">
+          <caret line="14" column="3" lean-forward="true" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>IDE SDK</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>chapter-one</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>IDE SDK</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Leiningen: clojure-complete:0.2.4</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

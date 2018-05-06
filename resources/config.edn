@@ -1,0 +1,16 @@
+{:secrets     #include #join [#env HOME "/.datomic.edn"]
+ :server-type :peer-server
+ :endpoint    "localhost:8998"
+ :db-name     "mydb"
+ :access-key
+              #profile {:dev  #ref [:secrets :dev-access-key]
+                        :test #ref [:secrets :test-access-key]
+                        :prod #ref [:secrets :prod-access-key]
+                        }
+ :secret
+              #profile {:dev  #ref [:secrets :dev-secret]
+                        :test #ref [:secrets :test-secret]
+                        :prod #ref [:secrets :prod-secret]
+                        }
+ }
+
