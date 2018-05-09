@@ -6,6 +6,7 @@
             [clojure.pprint :as pp]
             [clojure.term.colors :refer :all]
             [util.data-utils :refer :all]
+            [clojure.tools.logging :as log]
             [datomic.client.api :as d])
   (:gen-class))
 
@@ -16,9 +17,15 @@
 (def conn setup/mydb-conn)
 
 ;; 2. Configure schema of allowed attributes
-(d/transact conn {:tx-data model/role-schema})
-(d/transact conn {:tx-data model/order-schema})
-(d/transact conn {:tx-data model/user-schema})
+(defn init-schemas
+  []
+  (try
+     (d/transact conn {:tx-data model/role-schema})
+     (d/transact conn {:tx-data model/order-schema})
+     (d/transact conn {:tx-data model/user-schema})
+     (catch Exception e
+       (log/error e "Unable to initialize schemas")))
+  )
 
 ;;; Writing and reading to database
 ;; 1. Used for adding new users
@@ -118,6 +125,7 @@
   [& args]
   (println (on-grey (blue " Basic Datomic client functionality ")))
   (println (blue "Exercise CURD on Datomic DB:"))
+  (pp/pprint (init-schemas))
 
   ;;; Datomic CURD
   ; CREATE, READ, UPDATE, & DELETE
