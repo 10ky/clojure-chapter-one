@@ -3,8 +3,6 @@
             [biz.model :as model]
             [clojure.spec.alpha :as s]
             [clojure.spec.gen.alpha :as gen]
-            [clojure.pprint :as pp]
-            [clojure.term.colors :refer :all]
             [util.data-utils :refer :all]
             [clojure.tools.logging :as log]
             [datomic.client.api :as d])
@@ -137,8 +135,8 @@
 
 (defn -main
   [& args]
-  (println (on-grey (blue " CURD exercise with Datomic Client API ")))
-  (pp/pprint (let [schemas [model/role-schema model/order-schema model/user-schema]
+  (log/info " CURD exercise with Datomic Client API ")
+  (log/info (let [schemas [model/role-schema model/order-schema model/user-schema]
                    schemas-ok? (validate-transactions (init-schemas schemas))
                    users (gen/sample user-generator 10)
                    valid-users? (valid-users users)
