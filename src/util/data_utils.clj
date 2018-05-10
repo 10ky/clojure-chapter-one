@@ -14,6 +14,11 @@
   (contains-many? transact-result :db-before :db-after :tx-data :tempids)
   )
 
+(defn validate-transactions
+  [transactions]
+  (every? validate-transact transactions)
+  )
+
 (defn validate-user
   "Return a valid user or nil"
   [user]

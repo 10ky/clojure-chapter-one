@@ -18,11 +18,9 @@
 
 ;; 2. Configure schema of allowed attributes
 (defn init-schemas
-  []
+  [schemas]
   (try
-    (d/transact conn {:tx-data model/role-schema})
-    (d/transact conn {:tx-data model/order-schema})
-    (d/transact conn {:tx-data model/user-schema})
+    (map #(d/transact conn {:tx-data %}) schemas)
     (catch Exception e
       (log/error e "Unable to initialize schemas")))
   )
@@ -121,32 +119,31 @@
   (for [av av-pairs] (apply f av))
   )
 
+(defn curd-exercise
+  "Exercise CURD on Datomic DB"
+  [users]
+  (do (some-> users
+              add-users
+              ; Extract all entity ids to make later updates
+              get-all-eid
+              ; Compose boolean eid argument pair for each entity
+              gen-args
+              ; Make update to all user entities
+              ((partial apply-av-pairs update-availability-by-eid))
+              )
+      (for [id (map :user/id users)] (delete-user id))
+      )
+  )
+
 (defn -main
   [& args]
-
-  ;;; Datomic CURD
-  ; CREATE, READ, UPDATE, & DELETE
-  (if (validate-transact (init-schemas))
-    (do
-      (println (on-grey (blue " Basic Datomic client functionality ")))
-      (println (blue "Exercise CURD on Datomic DB:"))
-      (def users (gen/sample user-generator 100))
-      (pp/pprint (if (valid-users users)
-                   (do (some-> users
-                               add-users
-                               ; Extract all entity ids to make later updates
-                               get-all-eid
-                               ; Compose boolean eid argument pair for each entity
-                               gen-args
-                               ; Make update to all user entities
-                               ((partial apply-av-pairs update-availability-by-eid))
-                               )
-                       (for [id (map :user/id users)] (delete-user id))
-                       )
-                   nil
-                   )
-                 )
-      )
-    (println (blue "DB init failed"))
-    )
+  (println (on-grey (blue " CURD exercise with Datomic Client API ")))
+  (pp/pprint (let [schemas [model/role-schema model/order-schema model/user-schema]
+                   schemas-ok? (validate-transactions (init-schemas schemas))
+                   users (gen/sample user-generator 10)
+                   valid-users? (valid-users users)
+                   ]
+               (if (and schemas-ok? valid-users?) (curd-exercise users) nil)
+               )
+             )
   )
