@@ -14,7 +14,9 @@
                  [org.clojure/test.check "0.10.0-alpha2"]
                  [provisdom/spectomic "0.7.6"]
                  [aero "1.1.3"]
-                 [com.datomic/client-pro "0.8.14"]]
+                 [com.datomic/client-pro "0.8.14"]
+                 [org.clojars.akiel/datomic-spec "0.2"]
+                 ]
   :main ^:skip-aot chapter-one.core
   :target-path "target/%s"
   :profiles {:uberjar {:aot :all}})

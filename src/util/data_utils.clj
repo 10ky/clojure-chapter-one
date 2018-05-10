@@ -5,6 +5,15 @@
     )
   )
 
+(defn contains-many? [m & ks]
+  (every? #(contains? m %) ks))
+
+(defn validate-transact
+  "Verify if a transaction is successful"
+  [transact-result]
+  (contains-many? transact-result :db-before :db-after :tx-data :tempids)
+  )
+
 (defn validate-user
   "Return a valid user or nil"
   [user]

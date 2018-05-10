@@ -39,6 +39,7 @@
     <orderEntry type="library" name="Leiningen: org.apache.logging.log4j/log4j-api:2.11.0" level="project" />
     <orderEntry type="library" name="Leiningen: org.apache.logging.log4j/log4j-core:2.11.0" level="project" />
     <orderEntry type="library" name="Leiningen: org.apache.logging.log4j/log4j-slf4j-impl:2.11.0" level="project" />
+    <orderEntry type="library" name="Leiningen: org.clojars.akiel/datomic-spec:0.2" level="project" />
     <orderEntry type="library" name="Leiningen: org.clojure/clojure:1.9.0" level="project" />
     <orderEntry type="library" name="Leiningen: org.clojure/core.async:0.3.442" level="project" />
     <orderEntry type="library" name="Leiningen: org.clojure/core.cache:0.6.5" level="project" />

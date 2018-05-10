@@ -20,11 +20,11 @@
 (defn init-schemas
   []
   (try
-     (d/transact conn {:tx-data model/role-schema})
-     (d/transact conn {:tx-data model/order-schema})
-     (d/transact conn {:tx-data model/user-schema})
-     (catch Exception e
-       (log/error e "Unable to initialize schemas")))
+    (d/transact conn {:tx-data model/role-schema})
+    (d/transact conn {:tx-data model/order-schema})
+    (d/transact conn {:tx-data model/user-schema})
+    (catch Exception e
+      (log/error e "Unable to initialize schemas")))
   )
 
 ;;; Writing and reading to database
@@ -123,28 +123,30 @@
 
 (defn -main
   [& args]
-  (println (on-grey (blue " Basic Datomic client functionality ")))
-  (println (blue "Exercise CURD on Datomic DB:"))
-  (pp/pprint (init-schemas))
 
   ;;; Datomic CURD
   ; CREATE, READ, UPDATE, & DELETE
-  (do
-    (def users (gen/sample user-generator 100))
-    (pp/pprint (if (valid-users users)
-                 (do (some-> users
-                             add-users
-                             ; Extract all entity ids to make later updates
-                             get-all-eid
-                             ; Compose boolean eid argument pair for each entity
-                             gen-args
-                             ; Make update to all user entities
-                             ((partial apply-av-pairs update-availability-by-eid))
-                             )
-                     (for [id (map :user/id users)] (delete-user id))
-                     )
-                 nil
+  (if (validate-transact (init-schemas))
+    (do
+      (println (on-grey (blue " Basic Datomic client functionality ")))
+      (println (blue "Exercise CURD on Datomic DB:"))
+      (def users (gen/sample user-generator 100))
+      (pp/pprint (if (valid-users users)
+                   (do (some-> users
+                               add-users
+                               ; Extract all entity ids to make later updates
+                               get-all-eid
+                               ; Compose boolean eid argument pair for each entity
+                               gen-args
+                               ; Make update to all user entities
+                               ((partial apply-av-pairs update-availability-by-eid))
+                               )
+                       (for [id (map :user/id users)] (delete-user id))
+                       )
+                   nil
+                   )
                  )
-               )
+      )
+    (println (blue "DB init failed"))
     )
   )
