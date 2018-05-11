@@ -2,7 +2,7 @@
   (:require [aero.core :as aero])
   )
 
-(defn config [profile]
+(defn config! [profile]
   (aero/read-config (clojure.java.io/resource "config.edn") {:profile profile}))
 
 (defn db-name [config]

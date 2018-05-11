@@ -9,7 +9,6 @@
                  [org.apache.logging.log4j/log4j-api "2.11.0"]
                  [org.apache.logging.log4j/log4j-slf4j-impl "2.11.0"]
                  [org.slf4j/jcl-over-slf4j "1.7.25"]
-                 ;[clojure-term-colors "0.1.0"]
                  [org.clojure/spec.alpha "0.1.143"]
                  [org.clojure/test.check "0.10.0-alpha2"]
                  [provisdom/spectomic "0.7.6"]

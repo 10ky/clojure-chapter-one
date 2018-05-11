@@ -24,7 +24,6 @@
     </orderEntry>
     <orderEntry type="library" name="Leiningen: aero:1.1.3" level="project" />
     <orderEntry type="library" name="Leiningen: clojure-complete:0.2.4" level="project" />
-    <orderEntry type="library" name="Leiningen: clojure-term-colors:0.1.0" level="project" />
     <orderEntry type="library" name="Leiningen: com.cognitect/anomalies:0.1.12" level="project" />
     <orderEntry type="library" name="Leiningen: com.cognitect/hmac-authn:0.1.194" level="project" />
     <orderEntry type="library" name="Leiningen: com.cognitect/http-client:0.1.83" level="project" />
