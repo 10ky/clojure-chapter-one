@@ -1,11 +1,13 @@
 (ns chapter-one.core
-  (:require [my-db.setup :as setup]
-            [biz.model :as model]
+  (:require [biz.model :as model]
             [clojure.spec.alpha :as s]
             [clojure.spec.gen.alpha :as gen]
-            [util.data-utils :refer :all]
+            [clojure.tools.cli :refer [parse-opts]]
             [clojure.tools.logging :as log]
-            [datomic.client.api :as d])
+            [datomic.client.api :as d]
+            [my-db.setup :as setup]
+            [util.data-utils :refer :all]
+            )
   (:gen-class))
 
 ;;;; CURD Exercise
@@ -120,25 +122,42 @@
 (defn curd-exercise!
   "Exercise CURD on Datomic DB"
   [users]
-  (do (some-> users
-              add-users!
-              ; Extract all entity ids to make later updates
-              get-all-eid!
-              ; Compose boolean eid argument pair for each entity
-              gen-args
-              ; Make update to all user entities
-              ((partial apply-av-pairs update-availability-by-eid!))
-              )
-      (for [id (map :user/id users)] (delete-user! id))
-      )
+  (let [update! (comp (partial apply-av-pairs update-availability-by-eid!) gen-args)]
+    (do (some-> users
+                ; Create users
+                add-users!
+                ; Read users
+                get-all-eid!
+                ; Update users
+                update!
+                )
+        ; Delete users
+        (map #(delete-user! (:user/id %)) users)
+        )
+    )
   )
+
+(def cli-options
+  ;; An option with a required argument
+  [["-c" "--count COUNT" "Number of users"
+    :default 1
+    :parse-fn #(Integer/parseInt %)
+    :validate [#(< 0 % 0x10000) "Must be a number between 0 and 65536"]]
+   ;; A non-idempotent option
+   ["-v" nil "Verbosity level"
+    :id :verbosity
+    :default 0
+    :assoc-fn (fn [m k _] (update-in m [k] inc))]
+   ;; A boolean option defaulting to nil
+   ["-h" "--help"]])
 
 (defn -main
   [& args]
   (log/info " CURD exercise with Datomic Client API ")
-  (log/info (let [schemas [model/role-schema model/order-schema model/user-schema]
+  (log/info (let [{:keys [options arguments errors summary]} (parse-opts args cli-options)
+                  schemas [model/role-schema model/order-schema model/user-schema]
                   schemas-ok? (validate-transactions (init-schemas! schemas))
-                  users (gen/sample user-generator 10)
+                  users (gen/sample user-generator (:count options))
                   users-ok? (valid-users users)
                   ]
               (if (and schemas-ok? users-ok?) (curd-exercise! users) nil)
